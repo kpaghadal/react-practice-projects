@@ -9,6 +9,8 @@ import Calculator from "./react2/calculator";
 import MultiPart from "./react3state/multipart"
 import Form from "./react3state/form"
 import Display123 from "./react3state/display"
+import Hook1Example from "./function/hook1"
+import Hook2Example from "./function/hook2"
 function App() {
   return (
     <>
@@ -23,7 +25,9 @@ function App() {
       {/* <Calculator/> */}
       {/* <MultiPart/> */}
       {/* <Form/> */}
-      <Display123/>
+      {/* <Display123/> */}
+      {/* <Hook1Example/> */}
+      <Hook2Example/>
 
     </>
   )
