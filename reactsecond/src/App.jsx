@@ -11,6 +11,7 @@ import Form from "./react3state/form"
 import Display123 from "./react3state/display"
 import Hook1Example from "./function/hook1"
 import Hook2Example from "./function/hook2"
+import ContactBook1 from "./function/contactbook"
 function App() {
   return (
     <>
@@ -27,7 +28,8 @@ function App() {
       {/* <Form/> */}
       {/* <Display123/> */}
       {/* <Hook1Example/> */}
-      <Hook2Example/>
+      {/* <Hook2Example/> */}
+      <ContactBook1 />
 
     </>
   )
